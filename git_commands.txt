@@ -1,0 +1,65 @@
+
+GIT COMMANDS AND THEIR USES
+
+1. git init
+Initializes a new local Git repository.
+
+2. git config --global user.name "Your Name"
+Sets the Git username.
+
+3. git config --global user.email "your-email@gmail.com"
+Sets the Git email address.
+
+4. git status
+Displays the current repository status.
+
+5. git add .
+Adds all changed files to the staging area.
+
+6. git commit -m "message"
+Saves changes in the repository.
+
+7. git log --oneline
+Displays the commit history.
+
+8. git branch
+Displays all available branches.
+
+9. git branch feature
+Creates a new feature branch.
+
+10. git checkout feature
+Switches to the feature branch.
+
+11. git checkout main
+Switches to the main branch.
+
+12. git merge --no-ff feature -m "Merged feature branch into main"
+Merges the feature branch into main.
+
+13. git log --oneline --graph --all
+Displays commit history with branch structure.
+
+14. git branch -M main
+Renames the current branch to main.
+
+15. git add .gitignore
+Stages the .gitignore file.
+
+16. git revert HEAD
+Reverses the latest commit by creating a new commit.
+
+17. git revert --no-edit HEAD
+Reverts the latest commit without opening a text editor.
+
+18. git remote add origin URL
+Connects the local repository to GitHub.
+
+19. git remote -v
+Displays the remote repository URL.
+
+20. git push -u origin main
+Uploads the main branch to GitHub.
+
+21. git push -u origin feature
+Uploads the feature branch to GitHub.
